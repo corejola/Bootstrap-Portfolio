@@ -1,2 +1,2 @@
 # Bootstrap-Portfolio
-HW-02 Assignmnen 01
+HW-02 Assignmnent 01
