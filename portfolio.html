@@ -13,8 +13,89 @@
 </head>
 
 
-<body>
+<body style="background: violet">
+    <!-- this nav class to stay to the left -->
+    <!-- need to center the nav bar to center of the page, width default should be 960px -->
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff;">
+
+        <h1 class="navbar-brand mt-0 p-3"
+            style="background-color: #4aaaa5; color: white; font-family: 'Georgia', Times, Times New Roman, serif;">
+            CEDRIC OREJOLA</h1>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- move this class to the right -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" style="Arial, 'Helvetica Neue', Helvetica, sans-serif;" href="index.html">About
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" style="Arial, 'Helvetica Neue', Helvetica, sans-serif;"
+                        href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="Arial, 'Helvetica Neue', Helvetica, sans-serif;"
+                        href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5" style="background-color: #ffffff;">
+        <div class="row">
+            <div class="col-sm">
+                <h2 style="font-family: 'Georgia', Times, Times New Roman, serif; color: #4aaaa5;">Portfolio</h2>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <image src="http://lorempixel.com/output/cats-q-c-300-200-7.jpg" alt="Hangman" class="img-thumbnail">
+                    <p>Hangman</p>
+            </div>
+            <div class="col-sm-3">
+                <image src="http://lorempixel.com/output/cats-q-c-300-200-2.jpg" alt="RPG Game" class="img-thumbnail">
+                    <p>RPG Game</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <image src="http://lorempixel.com/output/cats-q-c-300-200-4.jpg" alt="Trivia Game"
+                    class="img-thumbnail">
+                    <p>Trivia Game</p>
+            </div>
+            <div class="col-sm-3">
+                <image src="http://lorempixel.com/output/cats-q-c-300-200-1.jpg" alt="Rutgers Info Widget"
+                    class="img-thumbnail">
+                    <p>Rutgers Info Widget</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <image src="http://lorempixel.com/output/cats-q-c-300-200-5.jpg" alt="Rock Paper Scissors"
+                    class="img-thumbnail">
+                    <p class="tag">Rock Paper Scissors</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="d-flex justify-content-end p-3" style="background-color: #666666">
+        <p class="lead m-auto" style="color: white">&#169;2019.</p>
+    </div>
 </body>
 
 </html>
